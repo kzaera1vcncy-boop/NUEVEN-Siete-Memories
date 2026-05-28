@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Mengubah output menjadi static HTML
-  basePath: process.env.NODE_ENV === 'production' ? '//NUEVEN-Siete-Memories2' : '',
-  images: {
-    unoptimized: true, // GitHub Pages tidak mendukung optimasi gambar bawaan Next.js
-  },
+  // Hapus atau komentari basePath agar Vercel menggunakan root domain otomatis
+  // Hapus atau komentari output: 'export' jika Anda ingin memanfaatkan fitur server-side Next.js di Vercel
 };
 
 export default nextConfig;
