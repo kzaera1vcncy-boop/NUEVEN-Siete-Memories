@@ -1,34 +1,11 @@
 'use client'
-import React, { useState, useEffect,useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 
 const MusicPlayer = () => {
     const [isPlaying, setIsPlaying] = useState(false)
     const [firstClick, setFirstClick] = useState(false)
     const audioPlayerRef = useRef<HTMLAudioElement>(null)
-    useEffect(() => {
-  const handleVisibilityChange = () => {
-    if (!audioPlayerRef.current) return
-
-    if (document.hidden) {
-      audioPlayerRef.current.pause()
-    } else {
-      audioPlayerRef.current.play()
-    }
-  }
-
-  document.addEventListener(
-    "visibilitychange",
-    handleVisibilityChange
-  )
-
-  return () => {
-    document.removeEventListener(
-      "visibilitychange",
-      handleVisibilityChange
-    )
-  }
-}, [])
 
     const togglePlay = () => {
         const audioPlayer = audioPlayerRef.current
