@@ -47,8 +47,23 @@ export const MEMBERS = [
         quote: 'dont be like Icarus.',
         instagram: '@dvvhhhh',
         images: '/images/members/devino-cassano.png'
-    }
+    },
+    {
+        name: 'Muhammad Reyhan',
+        quote: 'gausah noleh kebelakang isinya cuma kenangan cukup jadi pelajaran sisanya pikir masa depan',
+        instagram: '@recill19',
+        images: '/images/members/muhammad-reyhan.png'
+    },
+    {
+        name: 'Fathan Aditya Tama Putra',
+        quote: 'i love you forever',
+        instagram: '@milk_love969',
+        images: '/images/members/fathan-aditya.png'
+    },
+
+
+
+]
        
         
      
-]
