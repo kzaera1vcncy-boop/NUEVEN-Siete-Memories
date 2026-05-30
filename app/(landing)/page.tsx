@@ -1,20 +1,30 @@
 import React from 'react'
-import Hero from './_components/hero'
+import HeroNetflix from './_components/HeroNetflix'
 import Members from './_components/members'
 import Gallery from './_components/gallery'
 import MusicPlayer from './_components/music_player'
+import SocialFollow from './_components/SocialFollow'
+import SchoolMap from './_components/SchoolMap'
 
 const LandingPage = () => {
     return (
-        <div className='min-h-[200vh] pt-20'>
+        <div className='min-h-[200vh]'>
+            <HeroNetflix />
+
             <div className='max-con max-sm:px-5'>
-                <Hero />
-                <Members />
-                <Gallery />
-                <h1 className='text-red-500 text-5xl'>
-</h1>
-                <MusicPlayer/>
+                <section id="siswa">
+                    <Members />
+                </section>
+
+                <section id="kenangan">
+                    <Gallery />
+                </section>
+
+                <MusicPlayer />
             </div>
+
+            <SocialFollow />
+            <SchoolMap />
         </div>
     )
 }
