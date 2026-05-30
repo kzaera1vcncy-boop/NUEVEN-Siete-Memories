@@ -35,6 +35,20 @@ export const MEMBERS = [
         quote: 'Kamu tidak harus menjadi hebat untuk memulai, tetapi kamu harus memulai untuk menjadi hebat.',
         instagram: '@si_penyemangat_hidup',
         images: '/images/members/azka-naufal.png'
+    },
+    {
+        name: 'Pratama Bhagaskara Arya Sasikirana',
+        quote: 'be pround of yourself because you have survived a lot of things no one even noticed.',
+        instagram: '@gasstzy_01',
+        images: '/images/members/pratama-bhagaskara.png'
+    },
+    {
+        name: 'Devino Cassano Nelwan',
+        quote: 'dont be like Icarus.',
+        instagram: '@dvvhhhh',
+        images: '/images/members/devino-cassano.png'
     }
-
+       
+        
+     
 ]

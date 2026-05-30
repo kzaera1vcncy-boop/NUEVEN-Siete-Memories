@@ -304,7 +304,7 @@ export default function HeroNetflix() {
             <span style={{ color: COLORS.textMuted, fontSize: "12px" }}>•</span>
             <span style={{ color: "#ccc", fontSize: "13px" }}>SMPN 4 Cibitung</span>
             <span style={{ color: COLORS.textMuted, fontSize: "12px" }}>•</span>
-            <span style={{ color: "#ccc", fontSize: "13px" }}>2025</span>
+            <span style={{ color: "#ccc", fontSize: "13px" }}>2023</span>
           </div>
 
           {/* Rating */}
@@ -313,7 +313,7 @@ export default function HeroNetflix() {
               <span key={i} style={{ color: COLORS.accentLight, fontSize: "15px" }}>★</span>
             ))}
             <span style={{ color: "#bbb", fontSize: "13px", marginLeft: "4px" }}>
-              98% Match · 2025 · 1 Season
+              98% Match · 2023 · 3 Season
             </span>
           </div>
 
