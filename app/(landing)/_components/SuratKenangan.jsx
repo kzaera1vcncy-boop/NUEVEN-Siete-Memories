@@ -40,7 +40,7 @@ Sekarang karena kita sudah mau lulus, mungkin jalan kita akan mulai berbeda. Tap
 Terima kasih untuk semua waktu, usaha, dan kebersamaan kalian.
 
 Semoga di luar nanti kita tetap bisa sukses di jalan masing-masing, entah di game, sekolah, atau kehidupan nyata.
-Sampai ketemu lagi di lain kesempatan. GYC akan selalu jadi bagian dari perjalanan kita.
+Sampai ketemu lagi di lain kesempatan. GYC akan selalu jadi bagian dari perjalanan kita
 
 Dengan penuh rasa sayang,
 Kelas IX-7 💛`,
@@ -50,9 +50,9 @@ Kelas IX-7 💛`,
     to: "Sajoboys",
     sub: "To my dear Sajoboys",
     emoji: "⚡",
-    content: `Teman-teman SajoBoys,
+    content: `Untuk teman-teman sajoboys,
 
-Tidak terasa perjalanan kita sebagai satu kelompok sudah sampai di titik ini. Dari awal terbentuk setelah Sajojo tampil di panggung, sampai kita bisa jadi satu tim yang solid, semua itu bukan hal yang kecil buat kita.
+tidak terasa perjalanan kita sebagai satu kelompok sudah sampai di titik ini. Dari awal terbentuk setelah Sajojo tampil di panggung, sampai kita bisa jadi satu tim yang solid, semua itu bukan hal yang kecil buat kita.
 
 Kalian bukan cuma teman satu panggung, tapi juga bagian dari cerita masa sekolah yang akan selalu aku ingat.
 
@@ -318,7 +318,7 @@ export default function SuratKenangan() {
               fontSize: "60px", color: COLORS.accent,
               fontFamily: "'Georgia', serif", lineHeight: 1,
             }}>
-              "
+              &ldquo;
             </span>
 
             <p style={{
