@@ -60,6 +60,13 @@ export const MEMBERS = [
         instagram: '@milk_love969',
         images: '/images/members/fathan-aditya.png'
     },
+    {
+        name: 'Muhammad Ridho Ramansyah',
+        quote: 'keberhasilan bukan milik orang pintar,keberhasilan adalah milik orang yang senantiasa berusaha.',
+        instagram: '@rdh.1210',
+        images: '/images/members/ridho-ramansyah.png'
+    },
+    
 
 
 
