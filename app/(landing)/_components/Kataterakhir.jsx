@@ -12,7 +12,8 @@ const kataAkhir = [
   { nama: "Bagas", kata: "Ribuan tawa, beberapa air mata, satu keluarga. IX-7 forever in my heart" },
   { nama: "Devino", kata: "Kelas paling berisik, paling kompak, paling keren. Bangga jadi bagian dari IX-7!" },
   { nama: "Reyhan", kata: "Semua momen di kelas ini tidak akan pernah aku lupakan." },
-  { nama: "Fathan", kata: "Best class, best memories, best friends. IX-7 will always be special." }
+  { nama: "Fathan", kata: "Best class, best memories, best friends. IX-7 will always be special." },
+  { nama: "Azka", kata: "Kita mungkin akan berpencar, tapi hati kita tetap satu. IX-7 selalu di hati" },
 ];
 
 export default function KataTermkhir() {
