@@ -59,7 +59,7 @@ export default function SocialFollow() {
     <section
       id="social"
       style={{
-        background: COLORS.bgSection,
+        background: "#c8b99a",
         padding: "4rem 1.5rem",
         textAlign: "center",
       }}

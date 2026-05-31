@@ -9,6 +9,7 @@ import SuratKenangan from './_components/SuratKenangan'
 import CountdownTimer from './_components/CountdownTimer'
 import PolaroidWall from './_components/PolaroidWall'
 import Kataterakhir from './_components/Kataterakhir'
+import Guestbook from './_components/Guestbook'
 
 const LandingPage = () => {
   return (
@@ -32,6 +33,7 @@ const LandingPage = () => {
       <PolaroidWall />          {/* ← polaroid wall */}
       <Kataterakhir />          {/* ← kata terakhir */}
       <SuratKenangan />         {/* ← surat kenangan */}
+      <Guestbook />
       <SocialFollow />
       <SchoolMap />
       
