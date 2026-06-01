@@ -13,7 +13,7 @@ export const MEMBERS = [
     },
     {
         name: 'Ibrahim Al Rasyid',
-        quote: 'be yourself.',
+        quote: 'believe in yourself.',
         instagram: '@spyloft_765',
         images: '/images/members/ibrahim-alrasyid.png'
     },
