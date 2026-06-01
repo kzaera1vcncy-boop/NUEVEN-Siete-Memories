@@ -10,10 +10,14 @@ import CountdownTimer from './_components/CountdownTimer'
 import PolaroidWall from './_components/PolaroidWall'
 import Kataterakhir from './_components/Kataterakhir'
 import Guestbook from './_components/Guestbook'
+import Loadingscreen from './_components/Loadingscreen'
+import Particlebackground from './_components/Particlebackground'
 
 const LandingPage = () => {
   return (
     <div className='min-h-[200vh]'>
+      <Loadingscreen />
+      <Particlebackground />
       <HeroNetflix />
 
       <CountdownTimer />        {/* ← setelah hero */}
