@@ -12,6 +12,7 @@ import Kataterakhir from './_components/Kataterakhir'
 import Guestbook from './_components/Guestbook'
 import Loadingscreen from './_components/Loadingscreen'
 import Particlebackground from './_components/Particlebackground'
+import Fotopertamavsterakhir from './_components/Fotopertamavsterakhir'
 
 const LandingPage = () => {
   return (
@@ -29,6 +30,7 @@ const LandingPage = () => {
 
         <section id="kenangan">
           <Gallery />
+          <Fotopertamavsterakhir />
         </section>
 
         <MusicPlayer />
