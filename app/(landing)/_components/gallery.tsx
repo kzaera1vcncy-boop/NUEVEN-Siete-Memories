@@ -5,7 +5,7 @@ import ImageGallery from 'react-image-gallery'
 import { motion } from 'framer-motion'
 
 const Gallery = () => {
-    const images = Array.from({ length: 34 }, (_, index) => ({
+    const images = Array.from({ length: 50 }, (_, index) => ({
         original: `/images/gallery/${index + 1}.jpg`,
         thumbnail: `/images/gallery/${index + 1}.jpg`
     }));
